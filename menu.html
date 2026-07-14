@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>メニュー | Menu — Marugame Seimen</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <img src="images/MarugameSeimenLogo.png" alt="Marugame Seimen" class="brand-logo">
+      <span class="brand-sub jp-only">麺職人プロジェクト</span>
+      <span class="brand-sub en-only">Noodle Craftsmen Project</span>
+      <span class="brand-sub th-only">โปรเจกต์ช่างทำเส้น</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html"><span class="jp-only">ホーム</span><span class="en-only">Home</span><span class="th-only">หน้าแรก</span></a></li>
+      <li><a href="concept.html"><span class="jp-only">麺職人</span><span class="en-only">Craft</span><span class="th-only">งานฝีมือ</span></a></li>
+      <li><a href="menu.html" aria-current="page"><span class="jp-only">メニュー</span><span class="en-only">Menu</span><span class="th-only">เมนู</span></a></li>
+      <li><a href="shop.html"><span class="jp-only">店舗情報</span><span class="en-only">Shops</span><span class="th-only">ร้านค้า</span></a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="lang-toggle">
+        <button class="btn-jp">JP</button>
+        <button class="btn-en">EN</button>
+        <button class="btn-th">TH</button>
+      </div>
+      <button class="nav-toggle" aria-label="Menu">☰</button>
+    </div>
+  </nav>
+</header>
+
+<section class="noren-hero" style="min-height:44vh;">
+  <div class="noren-panel left"></div>
+  <div class="noren-panel right"></div>
+  <div class="hero-content">
+    <span class="eyebrow jp-only">メニュー</span>
+    <span class="eyebrow en-only">Menu</span>
+    <span class="eyebrow th-only">เมนู</span>
+    <h1 class="hero-title jp-only" style="font-size:clamp(2rem,5vw,3rem);">タイと日本、一杯の中で。</h1>
+    <h1 class="hero-title en-only" style="font-size:clamp(2rem,5vw,3rem);">Thailand and Japan, in one bowl.</h1>
+    <h1 class="hero-title th-only" style="font-size:clamp(2rem,5vw,3rem);">ไทยและญี่ปุ่น ในหนึ่งชาม</h1>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="menu-tabs reveal">
+      <button class="menu-tab active" data-cat="udon"><span class="jp-only">うどん</span><span class="en-only">Udon</span><span class="th-only">อุด้ง</span></button>
+      <button class="menu-tab" data-cat="dessert"><span class="jp-only">デザート・ドリンク</span><span class="en-only">Dessert &amp; Drinks</span><span class="th-only">ของหวานและเครื่องดื่ม</span></button>
+      <button class="menu-tab" data-cat="alacarte"><span class="jp-only">アラカルト</span><span class="en-only">A La Carte</span><span class="th-only">อาหารทานเล่น</span></button>
+    </div>
+
+    <!-- UDON -->
+    <div class="menu-category active" data-cat="udon">
+      <div class="menu-item reveal">
+        <div class="illust"><img src="images/GreenCurryUdon.png" alt="Green Curry Udon"></div>
+        <div>
+          <h4 class="jp-only">グリーンカレーうどん</h4><h4 class="en-only">Green Curry Udon</h4><h4 class="th-only">อุด้งแกงเขียวหวาน</h4>
+          <p class="jp-only">ココナッツの香るタイグリーンカレーに、コシのある麺を合わせて。</p>
+          <p class="en-only">Coconut-rich Thai green curry poured over our chewy hand-cut noodles.</p>
+          <p class="th-only">แกงเขียวหวานกลิ่นกะทิหอมมันราดบนเส้นอุด้งเหนียวนุ่มตัดสด</p>
+        </div>
+        <div class="menu-price">฿189</div>
+      </div>
+      <div class="menu-item reveal">
+        <div class="illust"><img src="images/StirFriedUdon.png" alt="Stir-Fried Udon, Pad Thai style"></div>
+        <div>
+          <h4 class="jp-only">パッタイ風焼きうどん</h4><h4 class="en-only">Stir-Fried Udon (Pad Thai style)</h4><h4 class="th-only">อุด้งผัดไทย</h4>
+          <p class="jp-only">タマリンドと卵、もやしと合わせて炒めた甘酸っぱい一皿。</p>
+          <p class="en-only">Udon noodles wok-fried with tamarind, egg, and bean sprouts — sweet, sour, savory.</p>
+          <p class="th-only">เส้นอุด้งผัดกับน้ำมะขามเปียก ไข่ และถั่วงอก รสเปรี้ยวหวานกลมกล่อม</p>
+        </div>
+        <div class="menu-price">฿199</div>
+      </div>
+      <div class="menu-item reveal">
+        <div class="illust"><img src="images/TomYumUdon.png" alt="Tom Yum Udon"></div>
+        <div>
+          <h4 class="jp-only">トムヤムうどん</h4><h4 class="en-only">Tom Yum Udon</h4><h4 class="th-only">อุด้งต้มยำ</h4>
+          <p class="jp-only">レモングラスと唐辛子が効いた酸辣スープに、太めの麺。</p>
+          <p class="en-only">Hot and sour lemongrass-chili broth with our thick-cut noodles.</p>
+          <p class="th-only">น้ำซุปต้มยำรสจัดจ้านจากตะไคร้และพริก คู่กับเส้นอุด้งหนานุ่ม</p>
+        </div>
+        <div class="menu-price">฿209</div>
+      </div>
+    </div>
+
+    <!-- DESSERT & DRINKS -->
+    <div class="menu-category" data-cat="dessert">
+      <div class="menu-item reveal">
+        <div class="illust"><img src="images/BobaTea.png" alt="Boba Tea, red style "></div>
+        <div>
+          <h4 class="jp-only">バブルティー（レッド）</h4><h4 class="en-only">Boba Tea — Red Style</h4><h4 class="th-only">ชานมไข่มุก สูตรสีแดง</h4>
+          <p class="jp-only">タイティーベースに、もちもちのタピオカを合わせて。</p>
+          <p class="en-only">Thai tea base with chewy tapioca pearls.</p>
+          <p class="th-only">ชานมไทยหอมเข้ม เสิร์ฟพร้อมไข่มุกเหนียวนุ่ม</p>
+        </div>
+        <div class="menu-price">฿79</div>
+      </div>
+      <div class="menu-item reveal">
+        <div class="illust"><img src="images/BobaTea.png" alt="Boba Tea, green style"></div>
+        <div>
+          <h4 class="jp-only">バブルティー（グリーン）</h4><h4 class="en-only">Boba Tea — Green Style</h4><h4 class="th-only">ชานมไข่มุก สูตรสีเขียว</h4>
+          <p class="jp-only">抹茶ベースのすっきりとした味わいに、タピオカをプラス。</p>
+          <p class="en-only">A cleaner matcha-based tea, also topped with tapioca pearls.</p>
+          <p class="th-only">ชาเขียวมัทฉะรสละมุน เสิร์ฟพร้อมไข่มุกเช่นกัน</p>
+        </div>
+        <div class="menu-price">฿79</div>
+      </div>
+      <div class="menu-item reveal">
+        <div class="illust"><img src="images/MangoStickyRice.png" alt="Mango Sticky Rice"></div>
+        <div>
+          <h4 class="jp-only">マンゴーもち米</h4><h4 class="en-only">Mango Sticky Rice</h4><h4 class="th-only">ข้าวเหนียวมะม่วง</h4>
+          <p class="jp-only">完熟マンゴーと、ココナッツミルクをかけたもち米。</p>
+          <p class="en-only">Ripe mango over coconut-milk sticky rice — a Thai classic.</p>
+          <p class="th-only">มะม่วงสุกคู่ข้าวเหนียวมูนราดกะทิ ของหวานไทยคลาสสิก</p>
+        </div>
+        <div class="menu-price">฿99</div>
+      </div>
+    </div>
+
+    <!-- A LA CARTE -->
+    <div class="menu-category" data-cat="alacarte">
+      <div class="menu-item reveal">
+        <div class="illust"><img src="images/GiaTod.png" alt="Gai Tod, Thai fried chicken"></div>
+        <div>
+          <h4 class="jp-only">ガイトート（タイ風フライドチキン）</h4><h4 class="en-only">Gai Tod (Fried Chicken)</h4><h4 class="th-only">ไก่ทอด</h4>
+          <p class="jp-only">ハーブとにんにくを効かせた、タイ風フライドチキン。</p>
+          <p class="en-only">Thai-style fried chicken, marinated with herbs and garlic.</p>
+          <p class="th-only">ไก่ทอดสไตล์ไทย หมักด้วยสมุนไพรและกระเทียมหอมกรุ่น</p>
+        </div>
+        <div class="menu-price">฿129</div>
+      </div>
+      <div class="menu-item reveal">
+        <div class="illust"><img src="images/PapayaSalad.png" alt="Papaya Salad, Som Tam"></div>
+        <div>
+          <h4 class="jp-only">ソムタム（青パパイヤサラダ）</h4><h4 class="en-only">Papaya Salad (Som Tam)</h4><h4 class="th-only">ส้มตำ</h4>
+          <p class="jp-only">千切りの青パパイヤに、ライムと唐辛子を効かせた酸辣サラダ。</p>
+          <p class="en-only">Shredded green papaya tossed with lime and chili — sharp and refreshing.</p>
+          <p class="th-only">มะละกอเส้นฝอยคลุกน้ำปลามะนาวและพริก รสจัดจ้านสดชื่น</p>
+        </div>
+        <div class="menu-price">฿99</div>
+      </div>
+      <div class="menu-item reveal">
+        <div class="illust"><img src="images/Sai Ua.png" alt="Sai Ua, Northern Thai sausage"></div>
+        <div>
+          <h4 class="jp-only">サイウア（北タイソーセージ）</h4><h4 class="en-only">Sai Ua (Northern Thai Sausage)</h4><h4 class="th-only">ไส้อั่ว</h4>
+          <p class="jp-only">レモングラスとハーブを練り込んだ、香り豊かなソーセージ。</p>
+          <p class="en-only">A fragrant grilled sausage packed with lemongrass and herbs.</p>
+          <p class="th-only">ไส้กรอกย่างสูตรเหนือ อัดแน่นด้วยตะไคร้และสมุนไพรหอม</p>
+        </div>
+        <div class="menu-price">฿119</div>
+      </div>
+      <div class="menu-item reveal">
+        <div class="illust"><img src="images/SpringRolls.png" alt="Por Pia Tod, fried spring rolls"></div>
+        <div>
+          <h4 class="jp-only">ポピアトート（揚げ春巻き）</h4><h4 class="en-only">Por Pia Tod (Fried Spring Rolls)</h4><h4 class="th-only">ปอเปี๊ยะทอด</h4>
+          <p class="jp-only">野菜たっぷりの具材を包んで揚げた、サクサクの春巻き。</p>
+          <p class="en-only">Crispy rolls packed with vegetables, fried golden.</p>
+          <p class="th-only">ปอเปี๊ยะไส้ผักแน่นๆ ทอดจนกรอบเหลืองน่าทาน</p>
+        </div>
+        <div class="menu-price">฿89</div>
+      </div>
+    </div>
+
+    <hr class="rule">
+    <p class="reveal" style="color:var(--ink-soft);font-size:0.85rem;">
+      <span class="jp-only">※ 価格はタイバーツ表示です（サービス料・税別）。</span>
+      <span class="en-only">*Prices shown in Thai Baht, excluding service charge and tax.</span>
+      <span class="th-only">*ราคาเป็นสกุลเงินบาท ยังไม่รวมค่าบริการและภาษี</span>
+    </p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h5 class="jp-only">丸亀製麺 麺職人プロジェクト</h5>
+        <h5 class="en-only">Marugame Seimen — Craftsmen Project</h5>
+        <h5 class="th-only">มารุกาเมะเซเมนต์ — โปรเจกต์ช่างทำเส้น</h5>
+        <p style="max-width:320px;">
+          <span class="jp-only">本サイトは学習目的で制作された非公式のファン/練習用サイトです。</span>
+          <span class="en-only">This site is an unofficial student practice project made for learning purposes.</span>
+          <span class="th-only">เว็บไซต์นี้เป็นโปรเจกต์ฝึกฝนของนักเรียน ไม่มีความเกี่ยวข้องกับบริษัทจริง</span>
+        </p>
+      </div>
+      <div>
+        <h5 class="jp-only">サイトマップ</h5>
+        <h5 class="en-only">Sitemap</h5>
+        <h5 class="th-only">แผนผังเว็บไซต์</h5>
+        <ul>
+          <li><a href="index.html"><span class="jp-only">ホーム</span><span class="en-only">Home</span><span class="th-only">หน้าแรก</span></a></li>
+          <li><a href="concept.html"><span class="jp-only">麺職人</span><span class="en-only">Craft</span><span class="th-only">งานฝีมือ</span></a></li>
+          <li><a href="shop.html"><span class="jp-only">店舗情報</span><span class="en-only">Shops</span><span class="th-only">ร้านค้า</span></a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="jp-only">言語</h5>
+        <h5 class="en-only">Language</h5>
+        <h5 class="th-only">ภาษา</h5>
+        <div class="lang-toggle">
+          <button class="btn-jp">JP</button>
+          <button class="btn-en">EN</button>
+          <button class="btn-th">TH</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Marugame Seimen Craftsmen Project</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
